@@ -75,7 +75,7 @@ def send_email_notification(handle, old_count, new_count):
 
 def main():
     if not TWITTER_HANDLE:
-        print("TWITTER_HANDLE is not set. Please add TWITTER_HANDLE=skyeyeish to your .env or environment.")
+        print("TWITTER_HANDLE is not set. Please add TWITTER_HANDLE to your .env or environment.")
         return
 
     print(f"Checking post count for @{TWITTER_HANDLE}...")
