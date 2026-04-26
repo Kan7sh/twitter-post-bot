@@ -2,9 +2,11 @@ name: Twitter Monitor Bot
 
 on:
   schedule:
-    - cron: "30 19,11,16 * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
-
+  push:
+      branches:
+        - main
 permissions:
   contents: write
 
